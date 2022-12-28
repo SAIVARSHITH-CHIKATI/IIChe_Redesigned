@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=Poppins:ital,wght@0,200;1,200&family=Roboto+Condensed&family=Roboto:ital,wght@0,300;1,300&family=Rubik:ital,wght@0,300;0,400;0,500;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=Lato:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Poppins:ital,wght@0,200;1,200&family=Roboto+Condensed&family=Roboto:ital,wght@0,300;1,300&family=Rubik:ital,wght@0,300;0,400;0,500;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@500;700&family=Kanit:wght@500&family=Lato:ital,wght@0,400;0,900;1,400;1,700&family=Poppins:ital,wght@0,200;1,200&family=Roboto+Condensed&family=Roboto:ital,wght@0,300;1,300&family=Rubik:ital,wght@0,300;0,400;0,500;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@500;700&family=Jost:wght@500&family=Kanit:wght@500&family=Lato:ital,wght@0,400;0,900;1,400;1,700&family=Poppins:ital,wght@0,200;1,200&family=Roboto+Condensed&family=Roboto:ital,wght@0,300;1,300&family=Rubik:ital,wght@0,300;0,400;0,500;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@500;700&family=Jost:wght@500&family=Kanit:wght@400;600&family=Lato:ital,wght@0,400;0,900;1,400;1,700&family=Poppins:ital,wght@0,200;1,200&family=Roboto+Condensed&family=Roboto:ital,wght@0,300;1,300&family=Rubik:ital,wght@0,300;0,400;0,500;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@500;700&family=Fira+Sans:wght@300;400;500&family=Jost:wght@500&family=Kanit:wght@400;600&family=Lato:ital,wght@0,400;0,900;1,400;1,700&family=Poppins:ital,wght@0,200;1,200&family=Roboto+Condensed&family=Roboto:ital,wght@0,300;1,300&family=Rubik:ital,wght@0,300;0,400;0,500;1,400&display=swap');
+
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+}
+body{
+	text-decoration: none;
+	text-align: center;
+}
+/*--------------sticky header Starts Here-----------------------*/
+.main-header{
+	width: 100%;
+	height: 80px;
+    background-color:#F9F3DF;
+	display: flex;
+	top: 0;
+	left: 0;
+	flex-direction: row;
+	justify-content: space-between;
+	position: sticky;
+	box-shadow: 1px 0px 6px 0px grey;
+    z-index: 1;
+}
+.main-header:hover{
+	box-shadow: 0px 0px 4px 0px grey;
+}
+.main-header img{
+	width: 70px;
+	height: 70px;
+	margin-top: 4px;
+	margin-left: 3rem;
+
+}
+.navbar ul {
+	list-style: none;
+	display: flex;
+	flex: 1;
+	padding-top: 10px;
+    margin-left: 40px;
+}
+.navbar ul li{
+	padding: 12px 10px 10px 10px;
+	position: relative;
+}
+.navbar ul li a{
+	text-align: center;
+	text-decoration: none;
+	padding: 10px;
+	color: #06113C;
+	text-transform: uppercase;
+	font-family: 'Lato', sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+	transition: all 0.3s;
+}
+.navbar ul li a:hover{
+	color:rgb(239, 91, 12);
+	border-radius: 30px;
+}
+
+
+
+/*---------------------------dropdown menu---------------------------------------*/
+.dropdown_menu{
+	display: none;
+}
+.navbar ul li:hover .dropdown_menu{
+	position: absolute;
+	display: block;
+	left: 39px;
+	top: 100%;
+	background-color:#F9F3DF;
+	text-align: center;
+	z-index: 1000;
+	padding-right: 20px;
+}
+.dropdown_menu ul{
+	display: block;
+	margin-left: 20px;
+}
+/*--------------------------------End of Drop-down Menu ------------------------------------------*/
+
+
+
+
+
+
+
+
+
+/*----------------------------------navigation icon 3 bars----------------------------------------*/
+.nav2{
+	padding-right: 20px;
+}
+.nav2 a i {
+	padding-top: 20px;
+	display: none;
+	font-size: 40px;
+	text-align: center;
+}
+.nav2 a i:hover{
+	color:rgb(239, 91, 12) ;
+}
+/*----------------------------------End of navigation icon 3 - bars
+
+
+
+/*-----------------------------------End of Header Section---------------------------------------*/
+
+
+/*--------------------------Start of Gallery Section-------------------------------------*/
+
+.pics
+{
+	color: azure;
+	font-size: 65px;
+	background: #e59560;/*darkorange,lavender*/
+	width: 360px;
+	border-radius: 0px;
+	font-family: 'Cinzel',serif;/*'Cinzel'*/
+	/*margin-left: 600px;*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 20px;
+	margin-top: 80px;
+    margin-left: 550px;
+	transition-delay: 1.6s;
+	opacity: 0.7;
+    z-index: 0;
+}
+.heading 
+{
+	background: #FFBB98;
+/*	opacity: 1;*/
+}
+
+.Division_1
+{
+    background: #fbe0c3;
+}
+
+.img-gallery
+{
+	width: 90%;
+	margin: 40px auto 50px;/*width: 80% and margin: 100px auto 50px 
+	makes images to be at the center with margin-top 100px and margin-bottom:50px and margin-left,right auto*/
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(250px,1fr));/*250px will decrease the space between the columns,observe that our image size is 350x350*/
+	grid-gap: 30px;/*assigns space of 30px between rows*/
+/*    background: #FFBB98;*/
+    border-radius: 50%;
+/*    z-index: 100;*/
+}
+.img-gallery img 
+{
+	width: 85%;/*varying the percentage values will decrease and increase the sizes of our images in image gallery*/
+	cursor: pointer;
+	box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.6);
+    transition: 0.5s;
+    border-radius: 20%;
+}
+.img-gallery img:hover
+{
+	transform: scale(1.2) ;/*  1)translateY(-10px) 2)translate3d(10px, -30px, -30px) 3)translate3d(-30px, -30px, -30px) 4)rotateX(-45deg) 5)rotateY(-180deg)*/
+	border-radius: 0px;
+	box-shadow: 0 20px 15px rgba(0,0,0,0.2);
+}
+.full-img
+{
+	width: 100%;
+	height: 100vh;
+	background: rgba(0, 0, 0, 0.7);
+	position: fixed;
+	top: 0;
+	left: 0;
+	display: none;/*initially to place the floating image on screen at correct position we will use flex prop,
+	but as initially we want to hide the floater screen so we replace flex by hidden*/
+	justify-content: center;
+	align-items: center;
+	z-index: 100;/*z-index: 100 make sures that the display of fullimage in fullimagebox when clicked is proper, like the other image affect will be removed */
+	/*display: flex,justify-content: center,align-items: center also makes the fixed image to be at the center*/
+
+}
+/*margin-left:34%;
+	margin-top:4% ; makes a new container in black(0.9) color but moves them by margin values,
+	to observe replace the top,left,display,justify-content: center,align-items: center by margin values in comments*/
+.full-img img
+{
+	width: 90%;
+	max-width: 500px;
+}
+.full-img span
+{
+	position: absolute;
+	top: 5%;
+	right: 5%;
+	font-size: 30px;
+	color: #fff;
+	cursor: pointer;
+    z-index: 0;
+}
+
+
+/*-------------------------End of Gallery Section---------------------------------*/
+
+
+
+
+/*-------------------------------------Footer-section-starts-----------------------------------------------*/
+.footersec{
+	width: 100%;
+	display:flex;
+	justify-content: space-between;
+	background-color:#050A30;
+	height: 220px;
+}
+.fdiv1{
+	width: 300px;
+	margin-left:20px ;
+}
+.fdiv1 ul li{
+	padding-top: 10px;
+	list-style:none;
+}
+.fdiv1 ul li a{
+	font-size: 20px;
+	padding-top: 20px;
+	color: #A4E8E0;
+	text-decoration: none;
+	cursor: pointer;
+}
+.fdiv1 ul li p{
+	color: #F8C0C8;
+}
+.fdiv2 ul{
+	height: 200px;
+	width: 500px;
+	padding-top: 12px;
+	list-style: none;
+	margin-left: -50px;
+}
+.fdiv2 ul li{
+	padding-top:10px;
+}
+.fdiv2 ul li a {
+	color: #EDEDED; 
+	font-size: 23px;
+	text-decoration: none;
+	cursor: pointer;
+}
+.fdiv2 ul li a:hover{
+	color: #FFE3A9; ;
+}
+.fdiv3{
+	width:200px;
+	padding-top: 30px;
+	
+}
+.fdiv3 ul li{
+	padding-top:10px;
+	margin-left: -100px;
+	list-style: none;
+}
+.fdiv3 ul li a{
+	color: #EDEDED;
+	font-size: 30px;
+	padding-left:0px;
+	margin-left: -70px;
+	cursor: pointer;
+	
+}
+.fdiv3 ul li a:hover{
+color: #FFE3A9; 
+}
+/*---------------------------Footer-Section-End----------------------------------------*/
+
+
